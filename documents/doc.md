@@ -77,17 +77,24 @@
 &emsp;&emsp;
 </p>
 
-### 2.1.3. Value Proposition Canva
+### 2.1.3. Lean Inception
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A Lean Inception da Pepper, a assistente virtual financeira desenvolvida para o Stark Bank, estabelece uma visão clara do que essa inovadora ferramenta representa e o que ela se propõe a realizar. Pepper é concebida como uma aliada inteligente e personalizada na gestão financeira empresarial, utilizando tecnologias de ponta, como os serviços da Google Cloud para fornecer informações, análises e automação de tarefas, impulsionando a tomada de decisão estratégica. Ao mesmo tempo, a Lean Inception delimita o escopo da Pepper, esclarecendo o que ela não é e o que não faz, garantindo que as expectativas dos usuários estejam alinhadas com suas funcionalidades. Essa definição clara do propósito e dos limites da Pepper é essencial para orientar seu desenvolvimento e garantir que ela atenda às necessidades específicas dos clientes do Stark Bank, impulsionando sua eficiência e sucesso financeiro.
 </p>
 
-### 2.1.4. Lean Inception
-<p align="justify"> 
-&emsp;&emsp;
+<p align="center"> 
+   Figura 2 - Lean Inception Pepper <br> 
+   <img src="../assets/lean_inception.png" style="display: block; margin: auto;" alt="Lean Incepton">
+   Fonte: Autoria Própria <br>
 </p>
 
-### 2.1.5. Análise financeira
+<br>
+
+<p align="justify"> 
+&emsp;&emsp;A Lean Inception da Pepper estabeleceu uma base sólida para o desenvolvimento da assistente virtual, definindo claramente seu propósito, funcionalidades e limites. A partir dessa visão, a equipe se dedicou a construir uma solução robusta e escalável, combinando tecnologias de ponta, como Processamento de Linguagem Natural e Machine Learning, com a expertise da equipe F.R.I.D.A.Y.
+</p>
+
+### 2.1.4. Análise financeira
 <p align="justify"> 
 &emsp;&emsp;
 </p>
