@@ -104,6 +104,11 @@
 &emsp;&emsp;
 </p>
 
+### 2.2.3. Casos de uso
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
 # <a id="c3"></a>3. Análise e exploração dos dados 
 
 # <a id="c4"></a>4. Desenvolvimento da Solução 
