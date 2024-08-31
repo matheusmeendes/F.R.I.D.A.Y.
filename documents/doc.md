@@ -17,28 +17,50 @@
 
 [3. Análise e exploração dos dados](#c3)
 
+[4. Desenvolvimento da Solução](#c4)
+
 [10. Referências](#c10)
 
 </br>
 
 # <a id="c1"></a>1. Introdução
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;No cenário atual, onde a agilidade e a eficiência são de grande importância para o sucesso empresarial, a equipe F.R.I.D.A.Y. apresenta Pepper, a assistente virtual financeira projetada para transformar a maneira como as empresas interagem com suas finanças.
+</p>
+
+<p align="justify">
+&emsp;&emsp;Com o objetivo de capacitar empresas de todos os portes, Pepper oferece acesso instantâneo a informações financeiras personalizadas, análises simplificadas e automação de tarefas, permitindo que os clientes tomem decisões mais estratégicas e otimizem seu tempo.
+</p>
+
+<p align="justify">
+&emsp;&emsp;Integrando-se ao dashboard do Stark Bank, Pepper proporciona uma experiência intuitiva e acessível, impulsionada por tecnologias de ponta como Processamento de Linguagem Natural (PLN) e Machine Learning. Através da combinação dessas ferramentas e da expertise da equipe F.R.I.D.A.Y., Pepper está pronta para revolucionar a gestão financeira empresarial, tornando-a mais eficiente, personalizada e estratégica.
+</p>
+
+<p align="justify">
+&emsp;&emsp;Este documento detalhará a jornada de desenvolvimento da Pepper, desde a concepção até a implementação, explorando análises de negócios e UX, a arquitetura da solução, as tecnologias empregadas e os resultados alcançados. Além disso, serão discutidas as lições aprendidas e as perspectivas futuras para o aprimoramento contínuo da assistente virtual, consolidando o compromisso da Stark Bank em oferecer soluções inovadoras e centradas no cliente.
 </p>
 
 ## 1.1 Objetivos
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;O projeto Pepper tem como objetivo central capacitar as empresas a gerenciarem suas finanças de forma mais eficiente, estratégica e personalizada, através da implementação de uma assistente virtual financeira inovadora. Para alcançar esse objetivo, Pepper se propõe a fornecer acesso rápido e fácil a informações financeiras, promover a tomada de decisão informada, automatizar tarefas financeiras, personalizar a experiência do usuário, aprimorar a eficiência operacional, dentre outros.
 </p>
 
 ## 1.2 Proposta da Solução
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;Para concretizar essa visão ambiciosa, Pepper será construída sobre uma arquitetura tecnológica robusta e escalável, utilizando o Google Cloud Platform como base. A solução combinará o poder do Processamento de Linguagem Natural (PLN) para interpretar as solicitações dos usuários com modelos de Machine Learning capazes de aprender e se adaptar continuamente, proporcionando respostas cada vez mais precisas e personalizadas. A integração perfeita com a API do Stark Bank garantirá acesso seguro e eficiente aos dados financeiros dos clientes, permitindo que Pepper forneça informações em tempo real e execute tarefas de forma automatizada.
 </p>
 
 ## 1.3 Justificativa
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A criação da assistente virtual financeira Pepper se justifica pela crescente necessidade das empresas de otimizar sua gestão financeira, tornando-a mais eficiente, estratégica e personalizada. Em um cenário cada vez mais competitivo e dinâmico, a capacidade de tomar decisões ágeis e embasadas em dados é fundamental para o sucesso empresarial. No entanto, muitas empresas ainda enfrentam desafios como dificuldade em acessar e interpretar informações financeiras, processos manuais e demorados, falta de personalização, custos elevados, dentre outros.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Pepper surge como uma resposta a esses desafios, oferecendo uma solução acessível, eficiente e personalizada para a gestão financeira empresarial. Ao combinar o poder da inteligência artificial com a expertise da equipe Stark Bank, a assistente virtual tem o potencial de democratizar o acesso a informações financeiras, tornando-as mais compreensíveis e acessíveis a todos os usuários, independentemente de seu conhecimento técnico.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Também possui o potencial de automatizar tarefas e otimizar processos, liberando tempo e recursos para que a equipe se concentre em atividades estratégicas e de maior valor agregado. Personalizar a experiência do usuário, oferecendo informações e análises adaptadas às necessidades e ao perfil de cada empresa. Reduzir custos e aumentar a eficiência: Minimizando a necessidade de intervenção humana em tarefas rotineiras e otimizando a gestão financeira Além de fortalecer o relacionamento com o cliente, oferecendo um serviço inovador e de alto valor agregado, que demonstra o compromisso do Stark Bank em apoiar o sucesso de seus clientes.
 </p>
 
 # <a id="c2"></a>2. Desenvolvimento e Análises de UX e Negócios
@@ -50,12 +72,22 @@
 &emsp;&emsp;
 </p>
 
-### 2.1.2. Value Proposition Canva
+### 2.1.2. Modelo de negócios
 <p align="justify"> 
 &emsp;&emsp;
 </p>
 
-### 2.1.3. Matriz de Risco
+### 2.1.3. Value Proposition Canva
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
+### 2.1.4. Lean Inception
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
+### 2.1.5. Análise financeira
 <p align="justify"> 
 &emsp;&emsp;
 </p>
@@ -67,11 +99,18 @@
 &emsp;&emsp;
 </p>
 
-### 2.2.2 _User Stories_
+### 2.2.2 User Stories
 <p align="justify"> 
 &emsp;&emsp;
 </p>
 
-# <a id="c2"></a>3. Análise e exploração dos dados 
+### 2.2.3. Casos de uso
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
+# <a id="c3"></a>3. Análise e exploração dos dados 
+
+# <a id="c4"></a>4. Desenvolvimento da Solução 
 
 # <a id="c10"></a>10. Referências
