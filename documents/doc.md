@@ -47,7 +47,7 @@
 
 ## 1.2 Proposta da Solução
 <p align="justify"> 
-&emsp;&emsp;Para concretizar essa visão ambiciosa, Pepper será construída sobre uma arquitetura tecnológica robusta e escalável, utilizando o Google Cloud Platform como base. A solução combinará o poder do Processamento de Linguagem Natural (PLN) para interpretar as solicitações dos usuários com modelos de Machine Learning capazes de aprender e se adaptar continuamente, proporcionando respostas cada vez mais precisas e personalizadas. A integração perfeita com a API do Stark Bank garantirá acesso seguro e eficiente aos dados financeiros dos clientes, permitindo que Pepper forneça informações em tempo real e execute tarefas de forma automatizada.
+&emsp;&emsp;Para concretizar essa visão ambiciosa, Pepper será construída sobre uma arquitetura tecnológica robusta e escalável, utilizando serviços da AWS como base. A solução combinará o poder do Processamento de Linguagem Natural (PLN) para interpretar as solicitações dos usuários com modelos de Machine Learning capazes de aprender e se adaptar continuamente, proporcionando respostas cada vez mais precisas e personalizadas. A integração com a API do Stark Bank garantirá acesso seguro e eficiente aos dados financeiros dos clientes, permitindo que Pepper forneça informações em tempo real e execute tarefas de forma automatizada.
 </p>
 
 ## 1.3 Justificativa
@@ -60,34 +60,46 @@
 </p>
 
 <p align="justify"> 
-&emsp;&emsp;Também possui o potencial de automatizar tarefas e otimizar processos, liberando tempo e recursos para que a equipe se concentre em atividades estratégicas e de maior valor agregado. Personalizar a experiência do usuário, oferecendo informações e análises adaptadas às necessidades e ao perfil de cada empresa. Reduzir custos e aumentar a eficiência: Minimizando a necessidade de intervenção humana em tarefas rotineiras e otimizando a gestão financeira Além de fortalecer o relacionamento com o cliente, oferecendo um serviço inovador e de alto valor agregado, que demonstra o compromisso do Stark Bank em apoiar o sucesso de seus clientes.
+&emsp;&emsp;Também possui o potencial de automatizar tarefas e otimizar processos, liberando tempo e recursos para que a equipe se concentre em atividades estratégicas e de maior valor agregado. Personalizar a experiência do usuário, oferecendo informações e análises adaptadas às necessidades e ao perfil de cada empresa. Reduzir custos e aumentar a eficiência: Minimizando a necessidade de intervenção humana em tarefas rotineiras e otimizando a gestão financeira. Além de fortalecer o relacionamento com o cliente, oferecendo um serviço inovador e de alto valor agregado, que demonstra o compromisso do Stark Bank em apoiar o sucesso de seus clientes.
 </p>
 
 # <a id="c2"></a>2. Desenvolvimento e Análises de UX e Negócios
 
 ## 2.1. Domínio de Fundamentos de Negócio
 
-### 2.1.1. Matriz de Risco
+### 2.1.1. Modelo de negócios
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;O modelo de negócios da Pepper, a assistente virtual financeira desenvolvida para o Stark Bank, visa revolucionar a gestão financeira empresarial ao democratizar o acesso à informação e análise de dados. A proposta de valor central da Pepper reside em sua capacidade de fornecer respostas rápidas e personalizadas a perguntas financeiras, gerar insights acionáveis e automatizar tarefas, tudo isso sem a necessidade de conhecimento técnico em SQL ou consulta de dados. A Pepper se integra perfeitamente ao ecossistema Stark Bank, oferecendo suporte personalizado e proativo aos clientes, impulsionando a tomada de decisões estratégicas e a eficiência operacional.
 </p>
 
-### 2.1.2. Modelo de negócios
-<p align="justify"> 
-&emsp;&emsp;
+<p align="center"> 
+   Figura 2 - Modelo do Negócio <br> 
+   <img src="../assets/modelo_de_negocios.png" style="display: block; margin: auto;" alt="Modelo do Negócio">
+   Fonte: Autoria Própria <br>
 </p>
 
-### 2.1.3. Value Proposition Canva
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;Em suma, o modelo de negócios da Pepper se destaca por sua proposta de valor centrada no cliente, combinando tecnologia de ponta, dados financeiros e expertise para oferecer uma solução completa e acessível para a gestão financeira empresarial. Ao democratizar o acesso à informação e análise de dados, a Pepper capacita empresas de todos os portes a tomarem decisões mais estratégicas e eficientes, impulsionando seu crescimento e sucesso. A integração com o Stark Bank, o foco em usuários não técnicos e o suporte personalizado garantem uma experiência superior, consolidando a posição da Pepper como uma ferramenta indispensável para a gestão financeira moderna.
 </p>
 
-### 2.1.4. Lean Inception
+### 2.1.2. Lean Inception
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A Lean Inception da Pepper, a assistente virtual financeira desenvolvida para o Stark Bank, estabelece uma visão clara do que essa inovadora ferramenta representa e o que ela se propõe a realizar. Pepper é concebida como uma aliada inteligente e personalizada na gestão financeira empresarial, utilizando tecnologias de ponta, como os serviços da Google Cloud para fornecer informações, análises e automação de tarefas, impulsionando a tomada de decisão estratégica. Ao mesmo tempo, a Lean Inception delimita o escopo da Pepper, esclarecendo o que ela não é e o que não faz, garantindo que as expectativas dos usuários estejam alinhadas com suas funcionalidades. Essa definição clara do propósito e dos limites da Pepper é essencial para orientar seu desenvolvimento e garantir que ela atenda às necessidades específicas dos clientes do Stark Bank, impulsionando sua eficiência e sucesso financeiro.
 </p>
 
-### 2.1.5. Análise financeira
+<p align="center"> 
+   Figura 3 - Lean Inception Pepper <br> 
+   <img src="../assets/lean_inception.png" style="display: block; margin: auto;" alt="Lean Incepton">
+   Fonte: Autoria Própria <br>
+</p>
+
+<br>
+
+<p align="justify"> 
+&emsp;&emsp;A Lean Inception da Pepper estabeleceu uma base sólida para o desenvolvimento da assistente virtual, definindo claramente seu propósito, funcionalidades e limites. A partir dessa visão, a equipe se dedicou a construir uma solução robusta e escalável, combinando tecnologias de ponta, como Processamento de Linguagem Natural e Machine Learning.
+</p>
+
+### 2.1.3. Análise financeira
 <p align="justify"> 
 &emsp;&emsp;
 </p>
