@@ -17,7 +17,11 @@
 
 [3. Análise e exploração dos dados](#c3)
 
-[10. Referências](#c10)
+[4. Desenvolvimento da Solução](#c4)
+
+[5. Roadmap de Prospecção](#c5)
+
+[6. Referências](#c6)
 
 </br>
 
