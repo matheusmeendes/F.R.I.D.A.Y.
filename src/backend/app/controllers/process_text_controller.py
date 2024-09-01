@@ -1,12 +1,12 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from app.services.query_service import process_query_result
-from app.models.db import execute_query
+from app.models.db import execute_query  # Ensure this import path is correct
 from groq import Groq
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
 # Initialize the Groq client with your API key
 api_key = os.getenv('GROQ_API_KEY')
 client = Groq(api_key=api_key)
@@ -20,7 +20,7 @@ def generate_sql_query(text: str) -> str:
     initial_prompt = """
     Você é um assistente especializado em gerar consultas SQL para um banco de dados. O banco possui a seguinte tabela:
 
-    CREATE TABLE transactions (
+    CREATE TABLE purchases (
         id BIGINT PRIMARY KEY,
         status VARCHAR(50),
         created TIMESTAMP,
@@ -51,11 +51,8 @@ async def process_text(request: TextRequest):
         sql_query = generate_sql_query(request.text)
 
         # Execute the SQL query
-        result = execute_query(sql_query)
+        result = await execute_query(sql_query)
 
-        # Process the result and generate response text
-        # response_text = process_query_result(request.text, result)
-
-        return {"response": sql_query}
+        return {"response": result}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
