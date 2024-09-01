@@ -305,6 +305,24 @@
 
 # <a id="c4"></a>4. Desenvolvimento da Solução 
 
+## 4.1. Arquitetura da Solução
+
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
+## 4.2. Tecnologias utilizadas
+
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
+## 4.3. Frontend da solução
+
+<p align="justify"> 
+&emsp;&emsp;
+</p>
+
 # <a id="c5"></a>5. Roadmap de Prospecção 
 
 # <a id="c6"></a>6. Referências
