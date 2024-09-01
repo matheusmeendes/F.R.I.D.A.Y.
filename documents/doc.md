@@ -208,7 +208,122 @@
 ### 2.1.5. Análise financeira
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A análise financeira da Pepper visa projetar os custos e receitas associados ao desenvolvimento, implantação e comercialização da assistente virtual, a fim de avaliar sua viabilidade econômica e potencial de retorno sobre o investimento. A priori, não foi possível realizar grandes consultas dos custos que o projeto pode ter. Sendo assim, aqui será apresentado uma estimativa desses custos e essa análise será aprimorada ao longo do desenvolvimento da Pepper.
+</p>
+
+<b>Custos:</b>
+
+<ul>
+<li><strong>Desenvolvimento:</strong>
+<ul>
+<li>Estimativa: Investimento inicial de R$ 12.000,00 (incluindo infraestrutura, ferramentas e licenças). Por ser uma startup, a equipe de desenvolvimentose resume aos idealizadores da Pepper.</li>
+</ul>
+</li>
+<li><strong>Infraestrutura e Hospedagem:</strong>
+<ul>
+<li>Estimativa: R$ 200,00 mensais (considerando servidores, armazenamento em nuvem na AWS e serviços de banco de dados).</li>
+</ul>
+</li>
+<li><strong>Integração com APIs:</strong>
+<ul>
+<li>Estimativa: R$ 0,00 mensais. Considerando o atual modelo de negócios, a integração com API's seria gratuita, tendo em vista que a Pepper estaria agregando valor em um serviço que já consolidado.</li>
+</ul>
+</li>
+<li><strong>Marketing e Vendas:</strong>
+<ul>
+<li>Estimativa: R$ 300,00 mensais (incluindo campanhas de marketing, equipe de vendas e comissões).</li>
+</ul>
+</li>
+<li><strong>Suporte ao Cliente:</strong>
+<ul>
+<li>Estimativa: R$ 0,00 mensais. Novamente a equipe idealizadora da Pepper a priori estariam a frente esse serviço.</li>
+</ul>
+</li>
+</ul>
+
+<b>Receitas:</b>
+
+<ul>
+<li><strong>Assinaturas:</strong>
+<ul>
+<li>Plano Básico (Pequenas empresas e startups): R$ 100,00/mês</li>
+<li>Plano Profissional (Pequenas e médias empresas): R$ 250,00/mês</li>
+<li>Plano Corporativo (Grandes empresas): R$ 500,00/mês</li>
+</ul>
+</li>
+<li><strong>Parcerias:</strong>
+<ul>
+<li>Estimativa: R$ 10.000,00 mensais por parceria (com instituições financeiras) ou uma porcentagem definida de receita mensal.</li>
+</ul>
+</li>
+<li><strong>Venda de módulos ou funcionalidades extras:</strong>
+<ul>
+<li>Estimativa: R$ 50,00/mês por módulo adicional.</li>
+</ul>
+</li>
+</ul>
+
+<b>Projeções Financeiras (Estimativa):</b>
+
+<ul>
+<li><strong>Investimento Inicial:</strong> R$ 12.000,00</li>
+<li><strong>Custos Fixos Mensais:</strong> R$ 500,00</li>
+<li><strong>Custos Variáveis:</strong> R$ 0,00 por usuário/mês (suporte e acesso a APIs são gratuitos no modelo atual)</li>
+<li><strong>Receita Mensal:</strong>
+<ul>
+<li>Cenário Conservador: 10 assinantes (5 Básico, 3 Profissional, 2 Corporativo) = R$ 2.000,00</li>
+<li>Cenário Realista: 20 assinantes (10 Básico, 6 Profissional, 4 Corporativo) = R$ 4.000,00</li>
+<li>Cenário Otimista: 30 assinantes (15 Básico, 9 Profissional, 6 Corporativo) = R$ 6.000,00</li>
+</ul>
+</li>
+<li><strong>Ponto de Equilíbrio:</strong>
+<ul>
+<li>Cenário Conservador: Aproximadamente 7 assinantes</li>
+<li>Cenário Realista: Aproximadamente 3 assinantes</li>
+<li>Cenário Otimista: Aproximadamente 2 assinante</li>
+</ul>
+</li>
+<li><strong>Retorno sobre o Investimento (ROI):</strong>
+<ul>
+<li><strong>Cenário Conservador:</strong>
+<ul>
+<li>Receita mensal: R$ 2.000,00</li>
+<li>Lucro mensal: R$ 1.500,00 (Receita - Custos Fixos)</li>
+<li>Tempo para recuperar o investimento: 8 meses (Investimento Inicial / Lucro mensal)</li>
+</ul>
+</li>
+<li><strong>Cenário Realista:</strong>
+<ul>
+<li>Receita mensal: R$ 4.000,00</li>
+<li>Lucro mensal: R$ 3.500,00</li>
+<li>Tempo para recuperar o investimento: 3.4 meses</li>
+</ul>
+</li>
+<li><strong>Cenário Otimista:</strong>
+<ul>
+<li>Receita mensal: R$ 6.000,00</li>
+<li>Lucro mensal: R$ 5.500,00</li>
+<li>Tempo para recuperar o investimento: 2.2 meses</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<b>Análise de Sensibilidade:</b>
+
+<ul>
+<li>Aumento nos custos de desenvolvimento: Impacto relativamente baixo no investimento inicial, considerando o valor já reduzido.</li>
+<li>Custos com suporte e integrações no futuro: Caso o modelo de negócios mude, esses custos podem aumentar, impactando o ponto de equilíbrio e o ROI.</li>
+<li>Redução na receita por assinante: Aumento no número de assinantes necessário para atingir o ponto de equilíbrio.</li>
+<li>Entrada de novos concorrentes: Impacto na taxa de conversão e retenção de clientes.</li>
+<li>Mudanças regulatórias: Possível necessidade de adaptação da solução e aumento nos custos.</li>
+</ul>
+
+<b>Conclusão:</b>
+
+<p align="justify"> 
+&emsp;&emsp;Com as modificações na análise financeira, a Pepper demonstra um potencial de viabilidade econômica ainda mais promissor, com um ROI significativamente mais rápido em todos os cenários. É fundamental monitorar as métricas-chave e realizar análises de sensibilidade para garantir o sucesso da Pepper no mercado, especialmente se houver mudanças no modelo de negócios ou no cenário competitivo.
 </p>
 
 ### 2.1.6. Entendimento Modelo de Vendas
@@ -480,9 +595,93 @@ curl -X POST http://localhost:8000/process-text/ \
 ## 4.4. Performace da Pepper
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A performance da Pepper foi avaliada durante o desenvolvimento, com foco na otimização do tempo de resposta e na capacidade de fornecer informações relevantes de forma eficiente.
 </p>
+
+<b>Métricas de Desempenho</b>
+
+<p align="justify"> 
+<b>Tempo médio de resposta:</b> A Pepper apresentou um tempo médio de resposta de 3 segundos, significativamente inferior ao tempo médio de 30-60 segundos que um usuário levaria para obter as mesmas informações analisando um dashboard tradicional, de acordo com referências do Perplexity. Essa agilidade representa um ganho de eficiência de até 95%, permitindo que os usuários acessem insights financeiros de forma rápida e dinâmica.
+</p>
+
+<b>Métricas Futuras</b>
+
+<p align="justify"> 
+&emsp;&emsp;Com a implementação da Pepper no mercado, será possível coletar e analisar métricas adicionais para avaliar sua performance e impacto nos negócios dos clientes, como:
+</p>
+
+<ul>
+<li><strong>Taxa de adoção:</strong> Percentual de usuários que utilizam a Pepper ativamente após a implementação.</li>
+<li><strong>Frequência de uso:</strong> Número médio de interações dos usuários com a Pepper por período (dia, semana, mês).</li>
+<li><strong>Satisfação do usuário:</strong> Avaliação da satisfação dos usuários com a Pepper através de pesquisas e feedbacks.</li>
+<li><strong>Redução de custos:</strong> Estimativa da economia de tempo e recursos gerada pela automação de consultas e tarefas financeiras.</li>
+<li><strong>Impacto na tomada de decisões:</strong> Avaliação do impacto da Pepper na qualidade e agilidade das decisões estratégicas tomadas pelas empresas.</li>
+</ul>
 
 # <a id="c5"></a>5. Roadmap de Prospecção 
 
+<p align="justify"> 
+&emsp;&emsp;A Pepper é uma solução que estará em constante evolução, projetada para se adaptar às necessidades do mercado e oferecer cada vez mais valor aos seus usuários. Para garantir seu crescimento e aprimoramento contínuo, a equipe F.R.I.D.A.Y. elaborou um roadmap de prospecção, que define as principais funcionalidades e melhorias a serem implementadas a curto, médio e longo prazo.
+</p>
+
+<b>Visão Geral do Roadmap</b>
+
+<p align="justify"> 
+&emsp;&emsp;O roadmap da Pepper se baseia em três pilares principais:
+</p>
+
+<ol>
+<li><strong>Aprimoramento da experiência do usuário:</strong> Tornar a interação com a Pepper ainda mais intuitiva, eficiente e personalizada.</li>
+<li><strong>Expansão das funcionalidades:</strong> Adicionar novas funcionalidades e integrações para atender a um público mais amplo e a diferentes necessidades de gestão financeira.</li>
+<li><strong>Escalabilidade e performance:</strong> Garantir que a Pepper possa lidar com um volume crescente de dados e usuários, mantendo um alto nível de desempenho e confiabilidade.</li>
+</ol>
+
+<b>Tabela de Prospecção</b>
+
+## Roadmap de Prospecção da Pepper
+
+| Período | Upgrade | Descrição | Impacto Esperado |
+|---|---|---|---|
+| **Curto Prazo (0-6 meses)** | Melhorias na interface do usuário | Refinamento da interface, incluindo design, usabilidade e acessibilidade | Aumento da satisfação e engajamento dos usuários |
+| | Novas categorias de consultas | Ampliar o leque de perguntas que a Pepper pode responder, incluindo consultas sobre fluxo de caixa, projeções financeiras e indicadores de desempenho | Maior utilidade e valor percebido pelos usuários |
+| | Integração com ferramentas de comunicação | Permitir que os usuários interajam com a Pepper através de chatbots, e-mail ou outras plataformas de comunicação | Maior acessibilidade e conveniência para os usuários. |
+| **Médio Prazo (6-12 meses)** | Análises preditivas e prescritivas | Utilizar modelos de Machine Learning para prever tendências financeiras e oferecer recomendações personalizadas para otimizar a gestão financeira | Auxiliar os usuários na tomada de decisões estratégicas e proativas |
+| | Automação de tarefas mais complexas | Expandir a capacidade da Pepper para automatizar tarefas financeiras mais complexas, como conciliação bancária, geração de relatórios e pagamentos | Aumento da eficiência operacional e redução de custos para as empresas |
+| | Suporte a múltiplos idiomas | Permitir que a Pepper interaja com os usuários em diferentes idiomas, expandindo seu alcance e acessibilidade | Aumento da base de usuários e penetração em novos mercados |
+| **Longo Prazo (12+ meses)** | Integração com outras fontes de dados | Conectar a Pepper a outras fontes de dados relevantes para a gestão financeira, como sistemas de ERP, CRM e plataformas de e-commerce | Oferecer uma visão ainda mais completa e integrada das finanças da empresa |
+| | Personalização avançada | Utilizar técnicas de aprendizado de máquina para oferecer uma experiência ainda mais personalizada, adaptando as respostas e análises ao perfil e histórico de cada usuário | Aumento da relevância e do valor percebido da Pepper |
+| | Expansão para o mercado B2C | Adaptar a Pepper para atender também às necessidades de pessoas físicas na gestão de suas finanças pessoais | Aumento do mercado potencial e da base de usuários | 
+
+<p align="justify"> 
+&emsp;&emsp;O roadmap de prospecção da Pepper demonstra o compromisso da equipe F.R.I.D.A.Y. em aprimorar continuamente a solução, oferecendo novas funcionalidades, expandindo sua capacidade de integração e garantindo uma experiência cada vez mais personalizada e eficiente para os usuários. Com um plano de desenvolvimento claro e focado nas necessidades do mercado, a Pepper tem o potencial de se tornar uma ferramenta indispensável para a gestão financeira empresarial, impulsionando o sucesso das empresas e consolidando sua posição como líder em inovação.
+</p>
+
 # <a id="c6"></a>6. Referências
+
+<p align="justify"> 
+CRUNCHBASE. Crunchbase. Disponível em: https://www.crunchbase.com/. Acesso em: 01 set. 2024
+
+STATISTA. Statista. Disponível em: https://www.statista.com/. Acesso em: 01 set. 2024
+
+GOOGLE. Google AI Blog. Disponível em: https://ai.googleblog.com/. Acesso em: 01 set. 2024
+
+AMAZON WEB SERVICES. AWS Machine Learning Blog. Disponível em: https://aws.amazon.com/blogs/machine-learning/. Acesso em: 01 set. 2024
+
+MEDIUM. Medium. Disponível em: https://medium.com/. Acesso em: 01 set. 2024.
+
+PERPLEXITY. Perplexity. Disponível em: https://www.perplexity.ai/. Acesso em: 01 set. 2024
+
+GOOGLE. Gemini. Disponível em: https://gemini.google.com/. Acesso em: 01 set. 2024
+
+OPEN AI. ChatGPT. Disponível em: https://chatgpt.com/. Acesso em: 01 set. 2024
+
+AMAZON WEB SERVICES. AWS EC2. Disponível em: https://aws.amazon.com/pt/ec2/getting-started/. Acesso em: 01 set. 2024
+
+GOOGLE. Gemini API. Disponível em: https://ai.google.dev/gemini-api/docs?hl=pt-br. Acesso em: 01 set. 2024.
+
+SITEWARE. Siteware. Disponível em: https://www.siteware.com.br/blog/gestao-estrategica/dashboard/. Acesso em: 01 set. 2024
+
+ANALISTA MODELOS DE NEGÓCIOS. Lean Canvas. Disponível em: https://analistamodelosdenegocios.com.br/lean-canvas/. Acesso em: 01 set. 2024
+
+CAROLI.ORG. Lean Inception. Disponível em: https://caroli.org/livro/lean-inception-como-alinhar-pessoas-e-construir-o-produto-certo/. Acesso em: 01 set. 2024
+</p>
