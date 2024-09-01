@@ -6,17 +6,17 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ text }) => {
   return (
-    <div className='relative inline-flex justify-start items-end border-2 border-strokeOrange text-strokeOrange py-4 px-[120px] rounded-[20px] h-40'>
+    <div className='relative inline-flex justify-start items-end border-2 border-strokeOrange text-strokeOrange py-3 px-[80px] rounded-[14px] h-32 cursor-pointer'>
       {/* Icon at the top left */}
-      <div className='absolute inset-0 bg-[#7E7E7E] opacity-0 hover:opacity-30 transition-opacity duration-500 z-0'></div>
+      <div className='absolute inset-0 bg-[#7E7E7E] opacity-0 hover:opacity-30 transition-opacity duration-500 z-0 rounded-[14px]'></div>
       <div className='z-10'>
         <img 
             src="/money.svg" 
             alt="Icon" 
-            className="absolute top-[4px] left-[20px] w-4 h-6 mt-6"
+            className="absolute top-[3px] left-[15px] w-3 h-4 mt-4"
         />
         {/* Card text */}
-        <span className='absolute left-[20px] bottom-[30px] font-light text-2xl text-left'>
+        <span className='absolute left-[15px] bottom-[20px] font-light text-lg text-left'>
           {text.split('\n').map((line, index) => (
             <React.Fragment key={index}>
               {line}
