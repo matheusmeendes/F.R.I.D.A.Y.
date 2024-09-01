@@ -127,7 +127,7 @@
 </p>
 
 <p align="center"> 
-   Figura 5 - Value Proposition Canvas <br> 
+   Figura 4 - Value Proposition Canvas <br> 
    <img src="../assets/vpc.png" style="display: block; margin: auto;" alt="Value Proposition Canvas">
    Fonte: Autoria Própria <br>
 </p>
@@ -218,7 +218,7 @@
 </p>
 
 <p align="center"> 
-   Figura 1 - Diagrama de Modelo de Vendas <br> 
+   Figura 5 - Diagrama de Modelo de Vendas <br> 
    <img src="../assets/Diagrama de Modelo de Negócio.png" style="display: block; margin: auto;" alt="Diagrama de Modelo de Vendas">
    Fonte: Autoria do grupo F.R.I.D.A.Y <br>
 </p>
@@ -295,7 +295,7 @@
    <ul>
       <li><b>Consultas em linguagem natural:</b> Os usuários poderiam fazer perguntas como "Qual foi o gasto total com viagens no último trimestre?" ou "Quais são os principais fornecedores da categoria 'Tecnologia'?"</li>
       <li><b>Análises personalizadas:</b> A Pepper poderia gerar relatórios personalizados sobre o comportamento de gastos, identificar áreas de oportunidade para redução de custos e fornecer insights para a tomada de decisões estratégicas.</li>
-      <li><b>Alertas e notificações:</p> A Pepper poderia monitorar as transações e enviar alertas sobre gastos excessivos, transações suspeitas ou oportunidades de economia.</li>
+      <li><b>Alertas e notificações:</b> A Pepper poderia monitorar as transações e enviar alertas sobre gastos excessivos, transações suspeitas ou oportunidades de economia.</li>
    </ul>
 </li>
 
