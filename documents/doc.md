@@ -66,8 +66,13 @@
 </p>
 
 # <a id="c2"></a>2. Desenvolvimento e Análises de UX e Negócios
+<p align="justify"> 
+&emsp;&emsp;A criação de uma solução inovadora como a Pepper exige uma abordagem cuidadosa e estratégica, que leve em consideração tanto as necessidades dos usuários quanto os objetivos de negócio. Nesta seção, exploraremos como a equipe F.R.I.D.A.Y. conduziu análises aprofundadas de UX (User Experience) e de negócios para garantir que a Pepper entregasse uma experiência excepcional aos usuários, ao mesmo tempo em que gerasse valor para as empresas que a utilizam.
 
 ## 2.1. Domínio de Fundamentos de Negócio
+<p align="justify"> 
+&emsp;&emsp;A compreensão profunda do contexto de negócios é essencial para o sucesso de qualquer projeto. Para a Pepper, a equipe F.R.I.D.A.Y. se dedicou a analisar o mercado, identificar as necessidades dos clientes e definir uma estratégia sólida para o desenvolvimento e comercialização da assistente virtual financeira.
+</p>
 
 ### 2.1.1. Lean Canvas
 <p align="justify"> 
@@ -152,9 +157,9 @@
 
 <b>Descrição dos Players</b>
 
-<li>QuickBooks, Xero e ContaAzul: São softwares de gestão financeira amplamente utilizados por pequenas e médias empresas, oferecendo funcionalidades como contabilidade, faturamento, gestão de despesas e relatórios financeiros. No entanto, eles geralmente apresentam interfaces complexas e exigem conhecimento técnico para acessar informações específicas e gerar relatórios personalizados.</li>
+<li><b>QuickBooks, Xero e ContaAzul:</b> São softwares de gestão financeira amplamente utilizados por pequenas e médias empresas, oferecendo funcionalidades como contabilidade, faturamento, gestão de despesas e relatórios financeiros. No entanto, eles geralmente apresentam interfaces complexas e exigem conhecimento técnico para acessar informações específicas e gerar relatórios personalizados.</li>
 
-<li>Outras soluções de gestão financeira: Existem diversas outras soluções no mercado, como Oracle NetSuite, SAP Business One e Sage Intacct, que atendem a empresas de diferentes portes e segmentos. No entanto, a maioria delas também apresenta interfaces complexas e exige conhecimento técnico para acessar informações financeiras de forma eficiente.
+<li><b>Outras soluções de gestão financeira:</b> Existem diversas outras soluções no mercado, como Oracle NetSuite, SAP Business One e Sage Intacct, que atendem a empresas de diferentes portes e segmentos. No entanto, a maioria delas também apresenta interfaces complexas e exige conhecimento técnico para acessar informações financeiras de forma eficiente.
 </li>
 
 <br>
@@ -179,10 +184,10 @@
 &emsp;&emsp;A Pepper se diferencia no mercado por oferecer:
 </p>
 
-<li>Acesso simplificado e personalizado a informações financeiras: Através de uma interface conversacional intuitiva e em linguagem natural, a Pepper permite que os usuários acessem informações financeiras de forma rápida e fácil, sem necessidade de conhecimento técnico especializado.</li>
-<li>Automação inteligente de tarefas: A Pepper automatiza consultas e tarefas financeiras complexas, liberando tempo para atividades mais importantes e estratégicas.</li>
-<li>Integração flexível: A capacidade de se conectar a diversas APIs de gestão financeira permite que a Pepper acesse dados de diferentes fontes, proporcionando uma visão completa e integrada das finanças da empresa.</li>
-<li>Foco no B2B: Diferente de outras IAs financeiras, a Pepper é voltada para empresas que oferecem serviços de gestão financeira, agregando valor às suas soluções e ajudando-as a se destacarem no mercado.</li>
+<li><b>Acesso simplificado e personalizado a informações financeiras:</b> Através de uma interface conversacional intuitiva e em linguagem natural, a Pepper permite que os usuários acessem informações financeiras de forma rápida e fácil, sem necessidade de conhecimento técnico especializado.</li>
+<li><b>Automação inteligente de tarefas:</b> A Pepper automatiza consultas e tarefas financeiras complexas, liberando tempo para atividades mais importantes e estratégicas.</li>
+<li><b>Integração flexível:</b> A capacidade de se conectar a diversas APIs de gestão financeira permite que a Pepper acesse dados de diferentes fontes, proporcionando uma visão completa e integrada das finanças da empresa.</li>
+<li><b>Foco no B2B:</b> Diferente de outras IAs financeiras, a Pepper é voltada para empresas que oferecem serviços de gestão financeira, agregando valor às suas soluções e ajudando-as a se destacarem no mercado.</li>
 
 <br>
 
@@ -207,8 +212,10 @@
 </p>
 
 ### 2.1.6. Entendimento Modelo de Vendas
- 
+
+<p align="justify"> 
 &emsp;&emsp;Com base no entendimento do negócio e na identificação do problema a ser solucionado pela Pepper, foi elaborado um diagrama inicial simples do modelo de vendas. Este diagrama tem como objetivo auxiliar na compreensão do perfil do cliente e da estratégia de disponibilização da Pepper no mercado. O diagrama foi elaborado utilizando o software [Excalidraw](https://excalidraw.com).
+</p>
 
 <p align="center"> 
    Figura 1 - Diagrama de Modelo de Vendas <br> 
@@ -216,11 +223,19 @@
    Fonte: Autoria do grupo F.R.I.D.A.Y <br>
 </p>
 
+<p align="justify"> 
 &emsp;&emsp;O diagrama representa as organizações para as quais o produto será disponibilizado. Nesse contexto, o software será comercializado por meio de licenças, cada uma representando um usuário da empresa. Este modelo de vendas é direcionado para empresas e não para o cliente final da empresa aplicadora do software (PMEs).
+</p>
 
+<p align="justify"> 
 &emsp;&emsp;Uma das principais vantagens desse modelo de negócios é a previsibilidade de receita, uma vez que a comercialização de licenças geralmente envolve contratos recorrentes, seja mensal ou anualmente. Isso permite um fluxo de caixa mais estável e facilita o planejamento financeiro da empresa dona da Pepper. Além disso, o modelo de licenciamento por usuário possibilita uma escalabilidade flexível, permitindo que as empresas ajustem o número de licenças conforme suas necessidades crescem ou diminuem.
+</p>
 
 ## 2.2 Entendimento da Experiência do Usuário
+
+<p align="justify"> 
+&emsp;&emsp;No desenvolvimento da Pepper, a compreensão profunda das necessidades e desafios dos usuários é fundamental. Para isso, foram definidas duas personas que representam os principais grupos de usuários da assistente virtual: João, o dono de uma PME, e Carla, a Gerente de Compras. Essas personas nos permitem entender suas dores, responsabilidades e como a Pepper pode agregar valor em suas rotinas de trabalho, impulsionando a gestão financeira de suas empresas.
+</p>
 
 ### 2.2.1 Personas
 
@@ -265,6 +280,28 @@
 - **Benefício:** Direciona a análise de custos de forma clara, facilitando a interpretação de gastos e analisando o histórico de preço de seu fornecedor. Tal histórico possibilita que Carla analise se o fornecedor está dentro dos gastos direcionados à elaboração do produto comercializado.
 
 # <a id="c3"></a>3. Análise e exploração dos dados 
+
+<p align="justify"> 
+&emsp;&emsp;A equipe F.R.I.D.A.Y. realizou uma análise exploratória dos dados fornecidos pela Stark Bank, abrangendo as tabelas de 'transfer', 'transaction', 'invoice' e corporate-purchase. O objetivo desta análise foi compreender a estrutura, características e nuances dos dados, a fim de identificar oportunidades para a aplicação da assistente virtual Pepper e direcionar o desenvolvimento da solução.
+</p>
+
+<b>Principais conclusões de análise exploratória:</b>
+
+<li><b>Dados de 'corporate-purchase' como foco:</b> A análise revelou que os dados de corporate-purchase oferecem o maior potencial para demonstrar as funcionalidades da Pepper, devido à riqueza de informações sobre compras corporativas, incluindo datas, categorias, fornecedores e valores.</li>
+
+<li><b>Limpeza e pré-processamento:</b> Os dados brutos necessitaram de limpeza e pré-processamento para garantir a qualidade e a consistência das informações. A coluna created na tabela corporate-purchase foi convertida para o formato datetime para facilitar a análise temporal.</li>
+
+<li><b>Identificação de padrões e tendências:</b> A análise estatística descritiva e a contagem de valores para colunas categóricas revelaram insights importantes sobre o comportamento das compras corporativas, como os principais fornecedores, categorias de gastos e status das transações.
+   <ul>
+      <li><b>Consultas em linguagem natural:</b> Os usuários poderiam fazer perguntas como "Qual foi o gasto total com viagens no último trimestre?" ou "Quais são os principais fornecedores da categoria 'Tecnologia'?"</li>
+      <li><b>Análises personalizadas:</b> A Pepper poderia gerar relatórios personalizados sobre o comportamento de gastos, identificar áreas de oportunidade para redução de custos e fornecer insights para a tomada de decisões estratégicas.</li>
+      <li><b>Alertas e notificações:</p> A Pepper poderia monitorar as transações e enviar alertas sobre gastos excessivos, transações suspeitas ou oportunidades de economia.</li>
+   </ul>
+</li>
+
+<p align="justify"> 
+&emsp;&emsp;A análise e exploração dos dados fornecidos pela Stark Bank foram fundamentais para direcionar o desenvolvimento da Pepper. A equipe F.R.I.D.A.Y. utilizou os insights obtidos para definir as funcionalidades da assistente virtual, priorizar o desenvolvimento e garantir que a solução atenda às necessidades reais dos usuários. A análise exploratória continuará sendo um processo contínuo, permitindo que a Pepper aprenda e se adapte às necessidades em constante evolução do mercado de gestão financeira empresarial.
+</p>
 
 # <a id="c4"></a>4. Desenvolvimento da Solução 
 
