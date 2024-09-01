@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import Card from './components/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
@@ -6,6 +7,7 @@ import { faBars, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 export default function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [inputValue, setInputValue] = useState('');
+  const navigate = useNavigate(); // Initialize useNavigate
   const [response, setResponse] = useState(''); // State to hold the API response
 
   const chatHistory = [
@@ -17,7 +19,7 @@ export default function App() {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/process-text/', { // Update with your actual API endpoint
+      const response = await fetch('http://44.243.39.185:8000/process-text/', { // Update with your actual API endpoint
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -29,6 +31,9 @@ export default function App() {
         const data = await response.json();
         setResponse(data.response); // Store the API response
         setInputValue(''); // Clear the input field after sending
+
+        // Redirect to /response with the response data
+        navigate('/response', { state: { response: data.response } });
       } else {
         console.error('Erro ao enviar a mensagem');
         setResponse('Erro ao enviar a mensagem');
