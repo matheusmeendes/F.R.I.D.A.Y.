@@ -81,7 +81,7 @@
 </p>
 
 <p align="center"> 
-   Figura 2 - Lean Canvas <br> 
+   Figura 1 - Lean Canvas <br> 
    <img src="../assets/lean_canvas.png" style="display: block; margin: auto;" alt="Lean Canvas">
    Fonte: Autoria Própria <br>
 </p>
@@ -104,7 +104,7 @@
 </p>
 
 <p align="center"> 
-   Figura 3 - Lean Inception Pepper <br> 
+   Figura 2 - Lean Inception Pepper <br> 
    <img src="../assets/lean_inception.png" style="display: block; margin: auto;" alt="Lean Incepton">
    Fonte: Autoria Própria <br>
 </p>
@@ -124,7 +124,7 @@
 </p>
 
 <p align="center"> 
-   Figura 4 - Value Proposition Canvas <br> 
+   Figura 3 - Value Proposition Canvas <br> 
    <img src="../assets/vpc.png" style="display: block; margin: auto;" alt="Value Proposition Canvas">
    Fonte: Autoria Própria <br>
 </p>
@@ -324,7 +324,7 @@
 </p>
 
 <p align="center"> 
-   Figura 5 - Diagrama de Modelo de Vendas <br> 
+   Figura 4 - Diagrama de Modelo de Vendas <br> 
    <img src="../assets/Diagrama de Modelo de Negócio.png" style="display: block; margin: auto;" alt="Diagrama de Modelo de Vendas">
    Fonte: Autoria Própria <br>
 </p>
@@ -422,7 +422,7 @@
 </p>
 
 <p align="center"> 
-   Figura 6 - Arquitetura da Solução <br> 
+   Figura 5 - Arquitetura da Solução <br> 
    <img src="../assets/arquitetura_solucao.png" style="display: block; margin: auto;" alt="Arquitetura da Solução">
    Fonte: Autoria Própria <br>
 </p>
@@ -593,25 +593,25 @@ curl -X POST http://localhost:8000/process-text/ \
 &emsp;&emsp;A interface da Pepper foi desenvolvida utilizando como base produtos que já funcionam dentro do mercado, como o Chat Gpt, Perplexity AI e Gemini AI. Sob essa ótica, abaixo estão representadas as telas desenvolvidas do frontend</p>
 
 <p align="center"> 
-   Página Inicial Pepper <br> 
+   Figura 6 - Página Inicial Pepper <br> 
    <img src="../assets/pagina1.png" style="display: block; margin: auto;" alt="Página Inicial">
    Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
 </p>
 
 <p align="center"> 
-   Página Inicial Pepper com Side Bar <br> 
+   Figura 7 - Página Inicial Pepper com Side Bar <br> 
    <img src="../assets/pagina1_sidebar.png" style="display: block; margin: auto;" alt="Página Inicial com Side Bar">
    Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
 </p>
 
 <p align="center"> 
-   Página de Output <br> 
+   Figura 8 - Página de Output <br> 
    <img src="../assets/pagina2.png" style="display: block; margin: auto;" alt="Página Inicial">
    Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
 </p>
 
 <p align="center"> 
-   Página de Output com Side Bar <br> 
+   Figura 9 - Página de Output com Side Bar <br> 
    <img src="../assets/pagina1_sidebar.png" style="display: block; margin: auto;" alt="Página Inicial com Side Bar">
    Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
 </p>
