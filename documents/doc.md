@@ -119,6 +119,20 @@
 &emsp;&emsp;
 </p>
 
+### 2.1.4 Entendimento Modelo de Vendas
+ 
+&emsp;&emsp;Com base no entendimento do negócio e na identificação do problema a ser solucionado pela Pepper, foi elaborado um diagrama inicial simples do modelo de vendas. Este diagrama tem como objetivo auxiliar na compreensão do perfil do cliente e da estratégia de disponibilização da Pepper no mercado. O diagrama foi elaborado utilizando o software [Excalidraw](https://excalidraw.com).
+
+<p align="center"> 
+   Figura 1 - Diagrama de Modelo de Vendas <br> 
+   <img src="../assets/Diagrama de Modelo de Negócio.png" style="display: block; margin: auto;" alt="Diagrama de Modelo de Vendas">
+   Fonte: Autoria do grupo F.R.I.D.A.Y <br>
+</p>
+
+&emsp;&emsp;O diagrama representa as organizações para as quais o produto será disponibilizado. Nesse contexto, o software será comercializado por meio de licenças, cada uma representando um usuário da empresa. Este modelo de vendas é direcionado para empresas e não para o cliente final da empresa aplicadora do software (PMEs).
+
+&emsp;&emsp;Uma das principais vantagens desse modelo de negócios é a previsibilidade de receita, uma vez que a comercialização de licenças geralmente envolve contratos recorrentes, seja mensal ou anualmente. Isso permite um fluxo de caixa mais estável e facilita o planejamento financeiro da empresa dona da Pepper. Além disso, o modelo de licenciamento por usuário possibilita uma escalabilidade flexível, permitindo que as empresas ajustem o número de licenças conforme suas necessidades crescem ou diminuem.
+
 ## 2.2 Entendimento da Experiência do Usuário
 
 ### 2.2.1 Personas
