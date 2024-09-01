@@ -44,7 +44,7 @@ Pepper oferece:
 
 ## Vídeo de demonstração
 
-Acesse o vídeo <a link="https://www.youtube.com/watch?v=DM8twUHmt5M">aqui</a>.
+Acesse o vídeo <a href="https://www.youtube.com/watch?v=DM8twUHmt5M">aqui</a>.
 
 ## Tecnologias Utilizadas
 
