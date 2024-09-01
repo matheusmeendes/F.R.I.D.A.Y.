@@ -420,6 +420,10 @@
 
 # <a id="c4"></a>4. Desenvolvimento da Solução 
 
+<p align="justify"> 
+&emsp;&emsp;A jornada de desenvolvimento da Pepper foi guiada por uma abordagem ágil e iterativa, com foco na entrega contínua de valor e na colaboração entre as equipes de desenvolvimento, design e negócios. A equipe F.R.I.D.A.Y. utilizou metodologias como Scrum e Kanban para garantir a flexibilidade e a adaptação às necessidades em constante mudanças no escopo. O projeto conta com uma solução robusta e escalável, combinando tecnologias de ponta como Processamento de Linguagem Natural (PLN), Machine Learning e integração com APIs de gestão financeira.
+</p>
+
 ## 4.1. Arquitetura da Solução
 
 <p align="justify"> 
