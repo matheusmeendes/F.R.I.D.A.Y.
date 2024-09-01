@@ -1,6 +1,6 @@
 # F.R.I.D.A.Y.
 
-## Solução de IA para o mercado financeiro
+## Pepper: Assistente Virtual Financeira
 
 ## Integrantes:
 - <a href="https://www.linkedin.com/in/breno-santana-4a1912228/">Breno Santana</a>
@@ -11,6 +11,8 @@
 
 ## Descrição:
 
-## 
+<p align="justify"> 
+&emsp;&emsp;Pepper é uma assistente virtual financeira inteligente projetada para integrar com API's de empresas que oferecem serviços de gestão financeira, como bancos e fintechs. Ela utiliza tecnologias de Processamento de Linguagem Natural (PLN) e Machine Learning para simplificar o acesso a informações financeiras, automatizar consultas e fornecer dados personalizados, ajudando empresas a tomar decisões mais estratégicas e otimizar seus processos.
+</p>
 
 ## Tecnologias Utilizadas
