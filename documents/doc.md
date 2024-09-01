@@ -17,11 +17,7 @@
 
 [3. Análise e exploração dos dados](#c3)
 
-[4. Desenvolvimento da Solução](#c4)
-
-[5. Roadmap de Prospecção](#c5) 
-
-[6. Referências](#c6)
+[10. Referências](#c10)
 
 </br>
 
@@ -68,6 +64,7 @@
 # <a id="c2"></a>2. Desenvolvimento e Análises de UX e Negócios
 <p align="justify"> 
 &emsp;&emsp;A criação de uma solução inovadora como a Pepper exige uma abordagem cuidadosa e estratégica, que leve em consideração tanto as necessidades dos usuários quanto os objetivos de negócio. Nesta seção, exploraremos como a equipe F.R.I.D.A.Y. conduziu análises aprofundadas de UX (User Experience) e de negócios para garantir que a Pepper entregasse uma experiência excepcional aos usuários, ao mesmo tempo em que gerasse valor para as empresas que a utilizam.
+</p>
 
 ## 2.1. Domínio de Fundamentos de Negócio
 <p align="justify"> 
@@ -132,12 +129,7 @@
    Fonte: Autoria Própria <br>
 </p>
 
-<p align="justify"> 
-&emsp;&emsp;Em suma, o VPC é uma ferramenta essencial no desenvolvimento de qualquer solução orientada ao cliente, pois possibilita um entendimento profundo das necessidades e frustrações, o que, em última análise, garante que o produto entregue realmente agregue valor ao público-alvo. Para o projeto da Pepper, o uso do VPC permite que a assistente ofereça um serviço personalizado e eficiente, que resolve os principais problemas financeiros enfrentados por pequenas e médias empresas, gerando uma experiência positiva e produtiva.
-</p>
-
 ### 2.1.4. Benchmark
-
 <p align="justify"> 
 &emsp;&emsp;Este documento apresenta um benchmark da Pepper, uma assistente virtual financeira projetada para empresas que oferecem serviços de gestão financeira. O objetivo é analisar o posicionamento da Pepper em relação a outros players do mercado, destacando seus diferenciais e oportunidades.
 </p>
@@ -206,7 +198,6 @@
 </p>
 
 ### 2.1.5. Análise financeira
-
 <p align="justify"> 
 &emsp;&emsp;A análise financeira da Pepper visa projetar os custos e receitas associados ao desenvolvimento, implantação e comercialização da assistente virtual, a fim de avaliar sua viabilidade econômica e potencial de retorno sobre o investimento. A priori, não foi possível realizar grandes consultas dos custos que o projeto pode ter. Sendo assim, aqui será apresentado uma estimativa desses custos e essa análise será aprimorada ao longo do desenvolvimento da Pepper.
 </p>
