@@ -194,7 +194,7 @@
 &emsp;&emsp;
 </p>
 
-### 2.1.4 Entendimento Modelo de Vendas
+### 2.1.6. Entendimento Modelo de Vendas
  
 &emsp;&emsp;Com base no entendimento do negócio e na identificação do problema a ser solucionado pela Pepper, foi elaborado um diagrama inicial simples do modelo de vendas. Este diagrama tem como objetivo auxiliar na compreensão do perfil do cliente e da estratégia de disponibilização da Pepper no mercado. O diagrama foi elaborado utilizando o software [Excalidraw](https://excalidraw.com).
 
