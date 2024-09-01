@@ -58,11 +58,11 @@
 </p>
 
 <p align="justify"> 
-&emsp;&emsp;Pepper surge como uma resposta a esses desafios, oferecendo uma solução acessível, eficiente e personalizada para a gestão financeira empresarial. Ao combinar o poder da inteligência artificial com a expertise de API's de Web Banking, como a do Stark Bank, a assistente virtual tem o potencial de democratizar o acesso a informações financeiras, tornando-as mais compreensíveis e acessíveis a todos os usuários, independentemente de seu conhecimento técnico.
+&emsp;&emsp;Pepper surge como uma resposta a esses desafios, oferecendo uma solução acessível, eficiente e personalizada para a gestão financeira empresarial. Ao combinar o poder da inteligência artificial com a expertise de API's de gestão financeira, como soluções Web Banking, a assistente virtual tem o potencial de democratizar o acesso a informações financeiras, tornando-as mais compreensíveis e acessíveis a todos os usuários, independentemente de seu conhecimento técnico.
 </p>
 
 <p align="justify"> 
-&emsp;&emsp;Também possui o potencial de automatizar tarefas e otimizar processos, liberando tempo e recursos para que a equipe se concentre em atividades estratégicas e de maior valor agregado. Personalizar a experiência do usuário, oferecendo informações e análises adaptadas às necessidades e ao perfil de cada empresa. Reduzir custos e aumentar a eficiência, minimizando a necessidade de intervenção humana em tarefas rotineiras e otimizando a gestão financeira. Além de fortalecer o relacionamento com o cliente, oferecendo um serviço inovador e de alto valor agregado, que demonstra o compromisso de bancos, como a Stark Bank em apoiar o sucesso de seus clientes.
+&emsp;&emsp;Também possui o potencial de automatizar consulta de informações e otimizar processos, liberando tempo e recursos para que a equipe se concentre em atividades estratégicas e de maior valor agregado. Personalizar a experiência do usuário, oferecendo informações  adaptadas às necessidades e ao perfil de cada empresa. Reduzir custos e aumentar a eficiência, minimizando a necessidade de intervenção humana em tarefas rotineiras e otimizando a gestão financeira. Além de fortalecer o relacionamento com o cliente, oferecendo um serviço inovador e de alto valor agregado, que demonstra o compromisso de bancos, como a Stark Bank em apoiar o sucesso de seus clientes.
 </p>
 
 # <a id="c2"></a>2. Desenvolvimento e Análises de UX e Negócios
@@ -71,17 +71,29 @@
 
 ### 2.1.1. Lean Canvas
 <p align="justify"> 
-&emsp;&emsp;O modelo de negócios da Pepper, a assistente virtual financeira desenvolvida para o Stark Bank, visa revolucionar a gestão financeira empresarial ao democratizar o acesso à informação e análise de dados. A proposta de valor central da Pepper reside em sua capacidade de fornecer respostas rápidas e personalizadas a perguntas financeiras, gerar insights acionáveis e automatizar tarefas, tudo isso sem a necessidade de conhecimento técnico em SQL ou consulta de dados. A Pepper se integra perfeitamente ao ecossistema Stark Bank, oferecendo suporte personalizado e proativo aos clientes, impulsionando a tomada de decisões estratégicas e a eficiência operacional.
+&emsp;&emsp;No cenário empresarial atual, a gestão financeira eficiente e estratégica é fundamental para o sucesso. Diante dos desafios enfrentados por empresas na análise e interpretação de dados financeiros complexos, a equipe F.R.I.D.A.Y. apresenta a Pepper, uma assistente virtual financeira inovadora.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;A Pepper combina o poder do Processamento de Linguagem Natural (PLN) e do Machine Learning para transformar a maneira como as empresas interagem com suas finanças. Com foco em empresas que oferecem serviços de gestão financeira, como a Stark Bank, a Pepper visa agregar valor a essas soluções, proporcionando uma experiência mais inteligente, personalizada e eficiente para seus clientes.
 </p>
 
 <p align="center"> 
-   Figura 2 - Modelo do Negócio <br> 
-   <img src="../assets/modelo_de_negocios.png" style="display: block; margin: auto;" alt="Modelo do Negócio">
+   Figura 2 - Lean Canvas <br> 
+   <img src="../assets/lean_canvas.png" style="display: block; margin: auto;" alt="Lean Canvas">
    Fonte: Autoria Própria <br>
 </p>
 
 <p align="justify"> 
-&emsp;&emsp;Em suma, o modelo de negócios da Pepper se destaca por sua proposta de valor centrada no cliente, combinando tecnologia de ponta, dados financeiros e expertise para oferecer uma solução completa e acessível para a gestão financeira empresarial. Ao democratizar o acesso à informação e análise de dados, a Pepper capacita empresas de todos os portes a tomarem decisões mais estratégicas e eficientes, impulsionando seu crescimento e sucesso. A integração com o Stark Bank, o foco em usuários não técnicos e o suporte personalizado garantem uma experiência superior, consolidando a posição da Pepper como uma ferramenta indispensável para a gestão financeira moderna.
+&emsp;&emsp;A Pepper representa um avanço significativo na gestão financeira empresarial, oferecendo uma solução inovadora e de alto valor agregado. Ao combinar tecnologias avançadas de inteligência artificial com uma interface conversacional intuitiva, a Pepper capacita empresas a transformar dados financeiros em informações estratégicas, otimizar processos e tomar decisões mais embasadas.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Com seu foco no mercado B2B e sua capacidade de integração com diversas APIs de gestão financeira, a Pepper se destaca como uma ferramenta poderosa para empresas que buscam aprimorar seus serviços e oferecer uma experiência diferenciada aos seus clientes. Através da automação de consultas, análises personalizadas e aprendizado contínuo, a Pepper impulsiona a eficiência, a agilidade e o sucesso na gestão financeira empresarial.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;A equipe F.R.I.D.A.Y. está comprometida em aprimorar continuamente a Pepper, incorporando novas funcionalidades e tecnologias para atender às necessidades em constante evolução do mercado. Com a Pepper, o futuro da gestão financeira empresarial se torna mais promissor, acessível e estratégico, abrindo caminho para um cenário de maior eficiência e sucesso para empresas de todos os portes.
 </p>
 
 ### 2.1.2. Lean Inception
@@ -110,7 +122,70 @@
 ### 2.1.4. Benchmark
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;Este documento apresenta um benchmark da Pepper, uma assistente virtual financeira projetada para empresas que oferecem serviços de gestão financeira. O objetivo é analisar o posicionamento da Pepper em relação a outros players do mercado, destacando seus diferenciais e oportunidades.
+</p>
+
+<b>Acesso a informações financeiras: Comparativo com soluções existentes</b>
+
+<p align="justify"> 
+&emsp;&emsp;A tabela abaixo compara a Pepper com algumas das principais soluções de acesso a informações financeiras disponíveis no mercado:
+</p>
+
+|Funcionalidade|Pepper|QuickBooks, Xero, ContaAzul|
+|--------------|------|---------------------------|
+|Acesso a informações financeiras|Acesso rárido e fácil, via linguagem natural, consultas personalizadas e em tempo real| Interfaces complexas, relatórios estáticos, dificuldade em encontrar informações específicas, consultas personalizadas geralmente exigem conhecimento técnico|
+|Interface conversacional|Interação intuitiva e em linguagem natural|Interfaces tradicionais, necessidade de treinamento e conhecimento técnico|
+|Integração com APIs|Integração com diversas APIs de gestão financeira, acesso a dados em tempo real|Integrações limitadas, dificuldade em conectar diferentes fontes de dados|
+|Aprendizado contínuo|Capacidade de aprender e se adaptar continuamente às necessidades dos usuários|Soluções estáticas, pouca capacidade de evolução e aprendizado|
+
+<b>Descrição dos Players</b>
+
+<li>QuickBooks, Xero e ContaAzul: São softwares de gestão financeira amplamente utilizados por pequenas e médias empresas, oferecendo funcionalidades como contabilidade, faturamento, gestão de despesas e relatórios financeiros. No entanto, eles geralmente apresentam interfaces complexas e exigem conhecimento técnico para acessar informações específicas e gerar relatórios personalizados.</li>
+
+<li>Outras soluções de gestão financeira: Existem diversas outras soluções no mercado, como Oracle NetSuite, SAP Business One e Sage Intacct, que atendem a empresas de diferentes portes e segmentos. No entanto, a maioria delas também apresenta interfaces complexas e exige conhecimento técnico para acessar informações financeiras de forma eficiente.
+</li>
+
+<br>
+
+<b>Comparativo com IAs de Bancos</b>
+
+<p align="justify"> 
+&emsp;&emsp;A tabela abaixo compara a Pepper com IAs de bancos, como a BIA do Bradesco:
+</p>
+
+|Característica|Pepper|IAs de Bancos (ex: BIA)|
+|--------------|------|-----------------------|
+|Público-alvo|Empresas que oferecem serviços de gestão financeira (B2B) / PMEs com dificuldades de consultar seus dados financeiros (B2B)|Clientes finais dos bancos (B2C)|
+|Foco|Agregar valor às soluções de gestão financeira empresarial, oferecendo insights e automação para otimizar processos e auxiliar na tomada de decisões|Atendimento ao cliente, suporte técnico, informações sobre produtos e serviços bancários, transações financeiras básicas|
+|Integração|Integração com diversas APIs de gestão financeira, permitindo acesso a dados de diferentes fontes e personalização das análises|Integração principalmente com os sistemas internos do banco, com foco em informações e transações específicas da instituição|
+|Profundidade das análises|Capacidade de fornecer análises financeiras mais personalizadas, com base em dados de diferentes fontes e aprendizado de máquina|Análises mais básicas e focadas em informações e transações do próprio banco|
+|Automação de tarefas|Automação de consultas e tarefas financeiras complexas, liberando tempo para atividades estratégicas|Automação de tarefas mais simples e transacionais, como consultas de saldo, pagamentos e transferências|
+
+<b>Diferenciais da Pepper e Relacionamento com o Mercado</b>
+
+<p align="justify"> 
+&emsp;&emsp;A Pepper se diferencia no mercado por oferecer:
+</p>
+
+<li>Acesso simplificado e personalizado a informações financeiras: Através de uma interface conversacional intuitiva e em linguagem natural, a Pepper permite que os usuários acessem informações financeiras de forma rápida e fácil, sem necessidade de conhecimento técnico especializado.</li>
+<li>Automação inteligente de tarefas: A Pepper automatiza consultas e tarefas financeiras complexas, liberando tempo para atividades mais importantes e estratégicas.</li>
+<li>Integração flexível: A capacidade de se conectar a diversas APIs de gestão financeira permite que a Pepper acesse dados de diferentes fontes, proporcionando uma visão completa e integrada das finanças da empresa.</li>
+<li>Foco no B2B: Diferente de outras IAs financeiras, a Pepper é voltada para empresas que oferecem serviços de gestão financeira, agregando valor às suas soluções e ajudando-as a se destacarem no mercado.</li>
+
+<br>
+
+<b>Conclusão</b>
+
+<p align="justify"> 
+&emsp;&emsp;Com base no benchmark realizado, podemos concluir que a Pepper apresenta diferenciais significativos em relação às soluções existentes no mercado, tanto em comparação com softwares tradicionais de gestão financeira quanto com IAs de bancos.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Não foram encontradas soluções aplicadas no mercado brasileiro que chegassem a ser uma concorrente direta da Pepper, combinando o foco no B2B, a capacidade de integração com múltiplas APIs, a interface conversacional intuitiva e o aprendizado contínuo.
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Dessa forma, empresas do segmento de acesso a informações financeiras, como a Stark Bank, se enquadram mais como potenciais usuárias dos serviços da Pepper, que pode agregar valor às suas soluções existentes e ajudá-las a oferecer uma experiência mais completa e personalizada aos seus clientes.
 </p>
 
 ### 2.1.5. Análise financeira
