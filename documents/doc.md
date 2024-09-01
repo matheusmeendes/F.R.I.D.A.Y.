@@ -116,7 +116,19 @@
 ### 2.1.3. Value Proposition Canvas
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;O Value Proposition Canvas (VPC) é uma ferramenta estratégica usada para garantir que um produto ou serviço esteja alinhado com as necessidades e desejos do cliente, permitindo mapear detalhadamente os Customer Jobs, ou seja, as tarefas que os clientes precisam realizar, as Gains, que são os benefícios esperados, e as Pains, que são as dores ou frustrações enfrentadas. A partir disso, o VPC ajuda a criar soluções que maximizem os Gains e aliviem os Pains, por meio de Pain Relievers e Gain Creators claros e eficazes, que integram os Products & Services.
+
+&emsp;&emsp;No contexto do projeto, o VPC é crucial para garantir que a solução desenvolvida, neste caso, a assistente virtual financeira Pepper, esteja ajustada para atender às principais demandas dos proprietários de PMEs. Com a análise estruturada do VPC, foi possível identificar que os clientes precisam de um acesso simplificado e rápido às informações financeiras e de ferramentas que transformem dados brutos em insights úteis. Ao mapear as dores e ganhos dos clientes, o projeto pode focar em criar uma experiência de valor, com respostas claras, automação de consultas e insights estratégicos.
+</p>
+
+<p align="center"> 
+   Figura 5 - Value Proposition Canvas <br> 
+   <img src="../assets/vpc.png" style="display: block; margin: auto;" alt="Value Proposition Canvas">
+   Fonte: Autoria Própria <br>
+</p>
+
+<p align="justify"> 
+&emsp;&emsp;Em suma, o VPC é uma ferramenta essencial no desenvolvimento de qualquer solução orientada ao cliente, pois possibilita um entendimento profundo das necessidades e frustrações, o que, em última análise, garante que o produto entregue realmente agregue valor ao público-alvo. Para o projeto da Pepper, o uso do VPC permite que a assistente ofereça um serviço personalizado e eficiente, que resolve os principais problemas financeiros enfrentados por pequenas e médias empresas, gerando uma experiência positiva e produtiva.
 </p>
 
 ### 2.1.4. Benchmark
