@@ -220,7 +220,7 @@
 <p align="center"> 
    Figura 5 - Diagrama de Modelo de Vendas <br> 
    <img src="../assets/Diagrama de Modelo de Negócio.png" style="display: block; margin: auto;" alt="Diagrama de Modelo de Vendas">
-   Fonte: Autoria do grupo F.R.I.D.A.Y <br>
+   Fonte: Autoria Própria <br>
 </p>
 
 <p align="justify"> 
@@ -308,16 +308,176 @@
 ## 4.1. Arquitetura da Solução
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;A arquitetura da Pepper é projetada para fornecer uma experiência de usuário intuitiva e eficiente, permitindo que os usuários façam perguntas em linguagem natural sobre seus dados financeiros e recebam respostas personalizadas e consultas acionáveis. A arquitetura é composta por um frontend em React, um backend em Python e um banco de dados hospedado na AWS. O modelo de linguagem utilizado para gerar consultas SQL a partir das perguntas dos usuários é o Gemini da Google.
 </p>
 
-## 4.2. Tecnologias utilizadas
+<p align="center"> 
+   Figura 6 - Arquitetura da Solução <br> 
+   <img src="../assets/arquitetura_solucao.png" style="display: block; margin: auto;" alt="Arquitetura da Solução">
+   Fonte: Autoria Própria <br>
+</p>
+
+<b>Visão Geral</b>
+
+<p align="justify"> 
+&emsp;&emsp;A arquitetura da Pepper é composta por três camadas principais:</p>
+
+<ol>
+<li><strong>Frontend:</strong> Responsável pela interface do usuário, onde os usuários interagem com a Pepper, fazem perguntas e visualizam as respostas.</li>
+<li><strong>Backend:</strong> Processa as perguntas dos usuários, gera consultas SQL, executa-as no banco de dados e formata as respostas para serem apresentadas no frontend.</li>
+<li><strong>Banco de Dados:</strong> Armazena os dados financeiros da empresa e permite a execução de consultas SQL para extrair informações relevantes.</li>
+</ol>
+
+<b>Fluxo de Trabalho</b>
+
+<ol>
+<li><strong>Input do Usuário:</strong> O usuário insere uma pergunta em linguagem natural na interface do frontend.</li>
+<li><strong>Processamento do Texto:</strong> O backend recebe a pergunta e a processa utilizando técnicas de PLN para entender a intenção do usuário e extrair informações relevantes.</li>
+<li><strong>Geração da Query SQL:</strong> Com base na análise do texto, o backend utiliza o modelo Gemini para gerar uma consulta SQL estruturada que buscará as informações desejadas no banco de dados.</li>
+<li><strong>Execução da Query:</strong> A consulta SQL é enviada ao banco de dados, que a executa e retorna os resultados.</li>
+<li><strong>Processamento do Resultado:</strong> O backend recebe os resultados da consulta e os processa, transformando-os em uma resposta clara e compreensível para o usuário.</li>
+<li><strong>Resposta ao Usuário:</strong> A resposta processada é enviada de volta ao frontend e exibida ao usuário na interface.</li>
+</ol>
+
+<b>Componentes e Tecnologias</b>
+
+<ul>
+<li><strong>Frontend:</strong> Desenvolvido em React com TypeScript e Vite, proporcionando uma interface moderna, responsiva e de alta performance.</li>
+<li><strong>Backend:</strong> Implementado em Python, utilizando o framework FastAPI para criar uma API RESTful eficiente e escalável. O modelo Gemini é utilizado para a geração de consultas SQL, e o SQLAlchemy para a interação com o banco de dados.</li>
+<li><strong>Banco de Dados:</strong> Hospedado na AWS, oferecendo segurança, escalabilidade e alta disponibilidade.</li>
+<li><strong>Gemini:</strong> Modelo de linguagem da Google utilizado para gerar consultas SQL a partir das perguntas dos usuários.</li>
+</ul>
+
+<b>Benefícios da Arquitetura</b>
+
+<ul>
+<li><strong>Escalabilidade:</strong> A arquitetura permite que a Pepper seja facilmente escalada para atender a um número crescente de usuários e empresas.</li>
+<li><strong>Flexibilidade:</strong> A utilização de APIs possibilita a integração com diferentes fontes de dados e a adição de novas funcionalidades no futuro.</li>
+<li><strong>Manutenibilidade:</strong> A separação clara entre frontend e backend facilita a manutenção e atualização da solução.</li>
+<li><strong>Segurança:</strong> A hospedagem na AWS e a implementação de boas práticas de segurança garantem a proteção dos dados financeiros dos usuários.</li>
+</ul>
+
+<b>Conclusão</b>
+
+<p align="justify"> 
+&emsp;&emsp;A arquitetura da Pepper foi cuidadosamente projetada para oferecer uma solução robusta, escalável e segura para a gestão financeira empresarial. A combinação de tecnologias avançadas de inteligência artificial com uma interface intuitiva e amigável permite que a Pepper transforme a maneira como as empresas interagem com suas finanças, impulsionando a eficiência, a tomada de decisões estratégicas e o sucesso no mercado.
+</p>
+
+## 4.2. Documentação da API
+
+<p align="justify"> 
+&emsp;&emsp;Esta API fornece um endpoint para gerar consultas SQL com base em entradas em linguagem natural e retornar uma resposta detalhada com base nos resultados da consulta SQL. A API utiliza o Gemini para processamento de linguagem natural, a fim de formular consultas SQL e gerar respostas em linguagem natural.
+</p>
+
+### URL Base
+
+http://localhost:8000
+
+### Endpoints
+
+### 4.2.1. Processar Texto
+
+#### Descrição
+
+<p align="justify"> 
+&emsp;&emsp;Gera uma consulta SQL com base na entrada em linguagem natural fornecida no corpo da solicitação. A consulta SQL é executada e o resultado é usado para formular uma resposta em linguagem natural. A resposta é então retornada na resposta.
+</p>
+
+#### URL
+
+POST /process-text/
+
+#### Solicitação
+
+- **Cabeçalhos**
+  - Content-Type: `application/json`
+
+- **Parâmetros do Corpo**
+
+  - `text` (string, obrigatório): A entrada em linguagem natural contendo a pergunta ou solicitação de informação.
+
+  **Exemplo de Solicitação:**
+
+  json
+  {
+    "text": "Eu quero saber o quanto eu gastei nos últimos 6 meses."
+  }
+
+#### Resposta
+
+- **200 OK**
+
+  - Retorna a resposta em linguagem natural com base nos resultados da consulta SQL.
+  
+  **Exemplo de Resposta:**
+
+  json
+  {
+    "response": "Nos últimos 6 meses, você gastou um total de R$ 10.500,00."
+  }
+
+- **400 Bad Request**
+
+  - Retorna uma mensagem de erro se a entrada for inválida ou se o processo de geração de SQL falhar.
+  
+  **Exemplo de Resposta:**
+
+  json
+  {
+    "detail": "Formato de solicitação inválido."
+  }
+
+- **500 Internal Server Error**
+
+  - Retorna uma mensagem de erro se a consulta SQL não puder ser gerada e executada após várias tentativas.
+  
+  **Exemplo de Resposta:**
+
+  json
+  {
+    "detail": "Não foi possível gerar e executar uma consulta SQL válida após várias tentativas."
+  }
+
+#### Tratamento de Erros
+
+- A API inclui tratamento de erros para tentar gerar e executar a consulta SQL novamente até um número máximo de iterações (`max_iterations` definido como 5).
+- Se a consulta SQL não puder ser gerada e executada com sucesso dentro das tentativas permitidas, a API retorna um `500 Internal Server Error`.
+
+### Exemplo de Uso
+
+#### cURL
+
+bash
+curl -X POST http://localhost:8000/process-text/ \
+-H "Content-Type: application/json" \
+-d '{"text": "Eu quero saber o quanto eu gastei nos últimos 6 meses."}'
+
+#### Postman
+
+1. Defina o método como `POST`.
+2. Insira a URL: `http://localhost:8000/process-text/`.
+3. Defina o corpo da solicitação como raw e selecione `JSON`.
+4. Insira o JSON da solicitação:
+   json
+   {
+     "text": "Eu quero saber o quanto eu gastei nos últimos 6 meses."
+   }
+5. Envie a solicitação.
+
+### Notas
+
+- Certifique-se de que a chave da API para o Gemini esteja configurada corretamente em suas variáveis de ambiente.
+- Esta API foi projetada para casos de uso em que consultas SQL precisam ser geradas dinamicamente com base em entradas em linguagem natural, particularmente no contexto de transações financeiras.
+- A API está equipada com tratamento de erros e registro robustos para garantir confiabilidade. 
+
+
+## 4.3. Frontend da solução
 
 <p align="justify"> 
 &emsp;&emsp;
 </p>
 
-## 4.3. Frontend da solução
+## 4.4. Performace da Pepper
 
 <p align="justify"> 
 &emsp;&emsp;
