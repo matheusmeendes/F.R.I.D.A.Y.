@@ -474,8 +474,39 @@ curl -X POST http://localhost:8000/process-text/ \
 ## 4.3. Frontend da solução
 
 <p align="justify"> 
-&emsp;&emsp;
+&emsp;&emsp;Este tópico aborda o desenvolvimento do frontend da Pepper, a assistente virtual financeira. O objetivo é apresentar as especificações e a abordagem técnica adotada para a criação da interface do usuário, garantindo que a solução seja eficiente e fácil de usar. </p> 
+
+<p align="justify">
+&emsp;&emsp;O frontend da Pepper foi desenvolvido com foco em fornecer uma interface clara, funcional e simples, que permita aos usuários acessar informações financeiras e interagir com a assistente de forma eficiente. Utilizando tecnologias modernas e seguindo as melhores práticas de design e desenvolvimento, a solução foi projetada para oferecer uma experiência de usuário intuitiva e responsiva. </p>
+
+<p align="justify">
+&emsp;&emsp;A interface da Pepper foi desenvolvida utilizando como base produtos que já funcionam dentro do mercado, como o Chat Gpt, Perplexity AI e Gemini AI. Sob essa ótica, abaixo estão representadas as telas desenvolvidas do frontend</p>
+
+<p align="center"> 
+   Página Inicial Pepper <br> 
+   <img src="../assets/pagina1.png" style="display: block; margin: auto;" alt="Página Inicial">
+   Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
 </p>
+
+<p align="center"> 
+   Página Inicial Pepper com Side Bar <br> 
+   <img src="../assets/pagina1_sidebar.png" style="display: block; margin: auto;" alt="Página Inicial com Side Bar">
+   Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
+</p>
+
+<p align="center"> 
+   Página de Output <br> 
+   <img src="../assets/pagina2.png" style="display: block; margin: auto;" alt="Página Inicial">
+   Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
+</p>
+
+<p align="center"> 
+   Página de Output com Side Bar <br> 
+   <img src="../assets/pagina1_sidebar.png" style="display: block; margin: auto;" alt="Página Inicial com Side Bar">
+   Fonte: Desenvolvido pelo Grupo. Foto retirada do Mockup <br>
+</p>
+
+&emsp;&emsp;A partir da análise das telas desenvolvidas, é possível observar que a plataforma é simples e intuitiva de utilizar. A escolha de se basear em produtos amplamente utilizados no mercado visa facilitar a aceitação dos usuários em relação à plataforma e otimizar a busca por suas funcionalidades. O design da plataforma foi elaborado com base em princípios de UX e UI, incluindo os cinco princípios do design visual: escala, contraste, equilíbrio, hierarquia visual e forma.
 
 ## 4.4. Performace da Pepper
 
