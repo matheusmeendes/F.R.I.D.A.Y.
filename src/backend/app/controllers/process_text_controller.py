@@ -1,9 +1,11 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from app.models.db import execute_query  # Ensure this import path is correct
+from app.models.db import execute_query
+from app.services.query_service import process_query_result
 from groq import Groq
 from dotenv import load_dotenv
 import os
+import logging
 
 load_dotenv()
 
@@ -31,7 +33,11 @@ def generate_sql_query(text: str) -> str:
         merchantCategoryType VARCHAR(255),
         workspaceId BIGINT
     );
+    
 
+    Importante: 
+    - Se for comparar `status` ou `merchantCategoryType` com valores numéricos, use CAST(status AS VARCHAR) ou CAST(merchantCategoryType AS VARCHAR).
+    - Se for comparar `amount` com um texto, use CAST(amount AS TEXT).
     Com base nas informações que eu fornecer a partir de agora, gere apenas a query SQL para a consulta desejada, sem mais comentários:
     """
     prompt = initial_prompt + text
@@ -44,15 +50,48 @@ def generate_sql_query(text: str) -> str:
     )
     return response.choices[0].message.content
 
+def answer_question(data):
+
+    initial_prompt = """
+    Você é um assistente especializado em compras corporativas, responsável por fornecer respostas precisas com base nos dados disponíveis. A seguir, você verá uma pergunta relacionada a transações corporativas, juntamente com os dados pertinentes. Utilize esses dados para fornecer uma resposta detalhada e direta à pergunta. Se necessário, inclua informações adicionais que ajudem a contextualizar a resposta. Forneça a resposta da maneira mais clara e útil possível.
+    """
+
+    prompt = initial_prompt + '\n pergunta:' + data['question'] + '\n dados:' + str(data['question_data'])
+    
+    response = client.chat.completions.create(
+        messages = [{
+            "role": "user",
+            "content": prompt
+        }],
+        model = "llama-3.1-8b-instant"
+    )
+
+    return response.choices[0].message.content
+
 @router.post("/process-text/")
 async def process_text(request: TextRequest):
     try:
         # Generate SQL query using LLaMA
         sql_query = generate_sql_query(request.text)
 
+        # Print the generated SQL query
+        print("Generated SQL Query:", sql_query)
+
         # Execute the SQL query
         result = await execute_query(sql_query)
+        
+        print("resultado da query" + str(result))
 
-        return {"response": result}
+        data = {
+            "question": request.text,
+            "question_data": result
+        }
+
+
+        response = answer_question(data)
+
+        return {"response": response}
     except Exception as e:
+        # Log the error
+        logging.error(f"Error occurred: {e}", exc_info=True)
         raise HTTPException(status_code=400, detail=str(e))

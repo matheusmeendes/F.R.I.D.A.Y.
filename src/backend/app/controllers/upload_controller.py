@@ -32,6 +32,9 @@ async def upload_csv():
         if not all(col in df.columns for col in expected_columns):
             raise HTTPException(status_code=400, detail="CSV does not have the required columns")
 
+        # Convert the 'created' column to datetime
+        df['created'] = pd.to_datetime(df['created'], errors='coerce')  # Use 'coerce' to handle errors
+
         # Insert data into the database
         query = """
         INSERT INTO compras_corporativas (id, status, created, cardId, holderId, amount, merchantName, merchantCategoryType, workspaceId)
