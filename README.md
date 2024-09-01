@@ -42,6 +42,10 @@ Pepper oferece:
 - Redução de custos: Otimiza processos e minimiza a necessidade de intervenção humana.
 - Diferencial competitivo: Agrega valor às soluções de gestão financeira oferecidas por empresas.
 
+## Vídeo de demonstração
+
+Acesse o vídeo <a link="https://www.youtube.com/watch?v=DM8twUHmt5M">aqui</a>.
+
 ## Tecnologias Utilizadas
 
 - Processamento de Linguagem Natural (PLN)
